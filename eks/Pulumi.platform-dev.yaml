@@ -1,0 +1,4 @@
+secretsprovider: awskms://alias/stack-encryption-key-dev-dd72d1b?region=us-east-1
+encryptedkey: AQICAHibRNoupSUSxHJm1CDhvnSIZtHeO8NTd8Ww5RIPgmNYYgEymHdnfu0VSWK/YU0+igv9AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMw1W6PI75O4MCW1EAgEQgDuW2dT1zVuqsKQs2OsOa3P1vLmPcGii6WYqSu9X8PMNaWXyRN3e7i7wvr9wnjMprjUjIeX+LqrdITOs2Q==
+config:
+  aws:region: us-east-1
