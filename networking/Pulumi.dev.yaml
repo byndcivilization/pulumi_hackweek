@@ -1,0 +1,21 @@
+secretsprovider: awskms://alias/stack-encryption-key-dev-dd72d1b?region=us-east-1
+encryptedkey: AQICAHibRNoupSUSxHJm1CDhvnSIZtHeO8NTd8Ww5RIPgmNYYgHcPO5GZ1WlMNxTSoe1vNspAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMzbG9oKZm54oKPzTQAgEQgDuC3pqpUo62w4yZn4VSNOATyfvXcmxftmLJ4e4xdyowzTOGxksxtbR8KwQOnMwguVny2b3zxzFHZ2qa+g==
+config:
+  aws:region: us-east-1
+  networking:environment: dev
+  networking:fedramp_boundary: "false"
+  networking:platform_k8s:
+    availability_zones:
+    - us-east-1a
+    - us-east-1b
+    - us-east-1c
+    cidr: 10.160.0.0/16
+    deploy_colors:
+    - blue
+    - green
+    nat_enabled: "True"
+    private_subnets: "True"
+    public_subnets: "True"
+    vpc_endpoint: "True"
+    vpc_flow_logs: "True"
+  networking:services_k8s_cidr: 10.170.0.0/16

@@ -1,0 +1,6 @@
+name: networking
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Networking and VPC setup
